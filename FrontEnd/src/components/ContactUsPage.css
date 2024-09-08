@@ -1,0 +1,106 @@
+.contact-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #e6f7ff, #b3e5fc);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-header p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.contact-image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form {
+    width: 100%;
+    background: linear-gradient(135deg, #ffffff, #f2f2f2);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-form button.btn-primary {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+
+.contact-form button.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}

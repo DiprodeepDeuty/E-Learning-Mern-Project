@@ -1,0 +1,93 @@
+.coding-games-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coding-games-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.coding-games-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #42a5f5, #29b6f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.coding-games-header p {
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+.coding-games-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.coding-games-content:hover {
+    transform: translateY(-5px);
+}
+
+.course-selection, .games-list {
+    text-align: center;
+    width: 100%;
+}
+
+.course-buttons, .game-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.course-button, .game-button, .back-button {
+    padding: 15px 30px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    width: 240px;
+    text-align: center;
+    box-shadow: 0 8px 12px rgba(33, 150, 243, 0.3);
+}
+
+.course-button:hover, .game-button:hover, .back-button:hover {
+    background-color: #1565c0;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(21, 101, 192, 0.4);
+}
+
+.back-button {
+    margin-top: 30px;
+    background-color: #6c757d;
+    box-shadow: 0 6px 10px rgba(108, 117, 125, 0.3);
+}
+
+.back-button:hover {
+    background-color: #495057;
+    transform: translateY(-4px);
+}
